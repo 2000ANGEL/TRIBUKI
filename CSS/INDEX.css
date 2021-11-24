@@ -1,0 +1,272 @@
+@charset "utf-8";
+@font-face{
+    font-family: Raleway-Bold;
+    src: url("../FONTS/Raleway-Bold.ttf");
+}
+
+.flex-container{
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-container img {
+    width: 100%;
+    height: auto;
+}
+
+.flex-container .Spot_Foto_3D{
+    margin: 1%;
+    border: medium solid #ffffff;
+    border-width: 2pt;
+}
+
+.flex-container .ilus_cartel{
+    margin: 1%;
+    border: medium solid #ffffff;
+    border-width: 2pt;
+}
+
+.ilus_cartel{
+    width: 23%;
+}
+
+.Spot_Foto_3D{
+    width: 48%;
+}
+
+ /*hover de imagenes 1*/
+ .flex-container div .info{
+    position: absolute;
+    text-align: center;
+    background-color: rgba(90, 194, 222, 0.8);
+    width: 48%;
+    opacity: 0;
+    transition: all 500ms ease-out;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.flex-container div .info h3{
+    font-size: 4.8vw;
+    font-family: Raleway-Bold;
+    padding-top: 20%;
+    padding-bottom: 18.6%;
+}
+
+.flex-container div:hover > .info{ 
+    opacity: 100%;
+    visibility: visible;
+}
+
+.flex-container div:hover > .info h3{
+    font-size: 5vw;
+}
+
+
+.flex-container div .info2{
+    position: absolute;
+    text-align: center;
+    background-color: rgba(90, 194, 222, 0.8);
+    width: 23%;
+    opacity: 0;
+    transition: all 500ms ease-out;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.flex-container div .info2 h2{
+    font-size: 2.7vw;
+    font-family: Raleway-Bold;
+    padding-top: 60%;
+    padding-bottom: 60%;
+}
+
+.flex-container .ilus_cartel:hover > .info2{ 
+    opacity: 100%;
+    visibility: visible;
+}
+
+.flex-container .ilus_cartel:hover > .info2 h2{
+    font-size: 2.7vw;
+}
+
+.ilus_cartel a{
+    color:black;
+}
+
+a{
+    color:black;
+}
+
+.flex-container div .info3{
+    position: absolute;
+    text-align: center;
+    background-color: rgba(90, 194, 222, 0.8);
+    width: 48%;
+    opacity: 0;
+    transition: all 500ms ease-out;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.flex-container div .info3 h3{
+    font-size: 5vw;
+    font-family: Raleway-Bold;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+.flex-container div:hover > .info3{ 
+    opacity: 100%;
+    visibility: visible;
+}
+
+.flex-container div:hover > .info3 h3{
+    font-size: 5vw;
+}
+
+/*slider*/
+
+#slider { 
+	overflow: hidden; 
+    margin-top: 1%;
+}
+
+div#slider figure img 
+{ 
+    width: 20%; 
+    float: left; 
+}
+
+div#slider figure { 
+ 
+  width: 500%;
+  margin: 0;
+  left: 0;
+  font-size: 0;
+  animation: 30s cambio infinite;
+}
+
+
+/*animacion slider*/
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+@media screen and (min-width: 20px) and (max-width: 768px){
+    .ilus_cartel{
+        width: 46%;
+    }
+    
+    .Spot_Foto_3D{
+        width: 96%;
+    }
+    
+    .flex-container .Spot_Foto_3D{
+        margin: 1% 2%;
+        border: medium solid #ffffff;
+        border-width: 2pt;
+        background: #5ac0dc;
+    }
+    
+    .flex-container .ilus_cartel{
+        margin: 1% 2%;
+        border: medium solid #ffffff;
+        border-width: 2pt;
+        background: #5ac0dc;
+    }
+     /*hover de imagenes 2*/
+ .flex-container div .info{
+    position: absolute;
+    text-align: center;
+    background-color: rgba(90, 194, 222, 0.8);
+    width: 95%;
+    opacity: 0;
+    transition: all 500ms ease-out;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.flex-container div .info h3{
+    font-size: 10vw;
+    font-family: Raleway-Bold;
+    padding-top: 20%;
+    padding-bottom: 18.5%;
+}
+
+.flex-container div:hover > .info{ 
+    opacity: 100%;
+    visibility: visible;
+}
+
+.flex-container div:hover > .info h3{
+    font-size: 10vw;
+}
+
+
+.flex-container div .info2{
+    position: absolute;
+    text-align: center;
+    background-color: rgba(90, 194, 222, 0.8);
+    width: 45.4%;
+    opacity: 0;
+    transition: all 500ms ease-out;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.flex-container div .info2 h2{
+    font-size: 5vw;
+    font-family: Raleway-Bold;
+    padding-top: 60%;
+    padding-bottom: 60%;
+}
+
+.flex-container .ilus_cartel:hover > .info2{ 
+    opacity: 100%;
+    visibility: visible;
+}
+
+.flex-container .ilus_cartel:hover > .info2 h2{
+    font-size: 5vw;
+}
+
+
+.flex-container div .info3{
+    position: absolute;
+    text-align: center;
+    background-color: rgba(90, 194, 222, 0.8);
+    width: 95.5%;
+    opacity: 0;
+    transition: all 500ms ease-out;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.flex-container div .info3 h3{
+    font-size: 10vw;
+    font-family: Raleway-Bold;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+.flex-container div:hover > .info3{ 
+    opacity: 100%;
+    visibility: visible;
+}
+
+.flex-container div:hover > .info3 h3{
+    font-size: 10vw;
+}
+
+}

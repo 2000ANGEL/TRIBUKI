@@ -1,0 +1,270 @@
+@charset "utf-8";
+@font-face {
+    font-family: Raleway-LightItalic;
+    src: url( "../FONTS/Raleway-LightItalic.ttf");
+}
+@font-face{
+    font-family: Raleway-Bold;
+    src: url("../FONTS/Raleway-Bold.ttf");}
+
+@font-face {
+    font-family: Raleway-Light;
+	src: url("../FONTS/Raleway-Light.ttf");
+}
+
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+h3{
+   font-family: Raleway-LightItalic;
+   color: white;
+   font-size: 2vw;
+}
+/*contenedor global*/
+
+#contenedor_global{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+/*tercera seccion*/
+#contenedor_global3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+#contenedor_global3 img{
+    width: 100%;
+    height: auto;
+}
+
+#reco1{
+    width: 45%;
+}
+
+/*contenedor estadisticas*/
+
+#contenedor_global2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+#estadisticas{
+    width: 45%;
+}
+
+#estadisticas img{
+    width: 100%;
+    height: auto;
+}
+
+
+#testimonio{
+    width: 40%;
+    margin-left: 5%;
+}
+
+#reco2{
+    width: 40%;
+    margin-left: 5%;
+}
+
+#testimonio img{
+    width: 100%;
+    height: auto;
+}
+
+/*retrato e info*/
+#retrato img{
+    width: 100%;
+    height: auto;
+    border: medium solid #ffffff;
+    border-width: 2pt;
+}
+
+#retrato{
+    width: 45%;
+}
+
+#informacion{
+    width: 40%;
+    margin-left: 5%;
+}
+
+#reco1{
+    width: 40%;
+    margin-left: 5%;
+}
+/*h1 y p*/
+
+h1{
+    color: white;
+    font-family: Raleway-Bold;
+    font-size: 4vw;
+}
+
+p{
+    font-family: Raleway-Light; 
+    color: white;
+    font-size: 1.5vw;
+}
+
+/*iconos azules*/
+
+#redblueflex img{
+    width: 100%;
+    height: auto;
+}
+
+#redblueflex{
+    width: 100%;
+    display: flex;
+}
+
+#redblueflex div{
+    width: 15%;
+    margin-right: 10%;
+    margin-top: 6%;
+}
+
+#redblueflex img:hover{
+    transition: 0.3s ease;
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+#sigueme{
+    margin-top: 8%;
+}
+
+#contenedor_estadisticas{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#contenedor_estadisticas img{
+    width: 100%;
+    height: auto;
+}
+
+#software{
+    width: 45%;
+}
+
+button{
+    height: 50px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 5%;   
+    background-color: #5AC2DE; 
+	  border-color: #5AC2DE; 
+    border-radius: 80px;  
+    width: 50%;   
+    cursor: pointer;
+    float: right;
+  }
+
+  #mensaje{
+	font-family: Raleway-Light;
+	color: #1A1B3A;
+}
+
+
+
+@media screen and (min-width: 20px) and (max-width: 768px){
+/*primera parte*/
+#retrato{
+     width: 90%;
+     margin-top: 5%;
+}
+#contenedor_global{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#informacion{
+    width: 90%;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+
+#testimonio{
+    width: 90%;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+
+h3{
+    font-size: 4vw;
+}
+
+h1{
+    font-size: 8vw;
+}
+
+p{
+    font-size: 3vw;
+}
+
+/*icono*/
+#sigueme{
+    display: none;
+    width: 10%;
+}
+
+#contenedor_global2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+/*estadisticas*/
+#estadisticas{
+    width: 90%;
+    margin-top: 5%;
+}
+
+#contenedor_global3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+
+#reco1{
+    width: 90%;
+}
+#reco2{
+     width: 90%;
+}
+}
