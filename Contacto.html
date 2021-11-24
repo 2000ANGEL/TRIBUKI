@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contacto | tribuki</title>
+<meta name="viewport" content="width=device-wisth, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scala=1.0">
+<link href="CSS/FormsStyles.css" rel="stylesheet" type="text/css">
+<link href="CSS/Header_Menu_footer.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="IMG/FAVICON_Mesa-de-trabajo-1.ico">
+</head>
+
+<body style="background-color: #1B1D3A;">
+
+    <header>
+         <!-- navegador -->
+		<div class="contenedor_menu">
+			<img src="IMG/Logo_header.svg" width="96px" style="margin: 10px;" alt="">
+			<input type="checkbox" id="menu-bar">
+			<label class="" for="menu-bar"><img src="IMG/ICON/BARS_MENU.svg" width="35" height="35" alt=""></label>
+			<nav class="menu">
+					<a href="index.html">Home</a>
+					<a href="Info.html">Acerca de mí</a>
+					<a href="Branding.html">Branding</a>
+					<a href="Contacto.html" style="background-color: #1A1B3A;border-radius: 10px; font-family: Raleway-BoldItalic; color: #FFE3B3;">Contacto</a>
+					<a href="Cotizacion.html">Cotización</a>
+			</nav>
+		</div>
+	</header>
+
+    <main>
+        <div id="contenedor_formulario">
+          <div id="img-contacto"><img src="IMG/Contacto.png" alt=""></div>  
+           <div class="contact_form">
+
+                <div class="formulario">      
+                  <h1>Hola, trabajemos juntos!!!</h1><br><br>
+                      <form action="submeter-formulario.php" method="post">       
+            
+                        
+                            <p>
+                              <label for="nombre" class="informacion">¿Cómo te llamas?
+                                <span class="obligatorio"></span>
+                              </label>
+                                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre y apellidos">
+                            </p>
+                          
+                            <p>
+                              <label for="email" class="informacion">Dirección de correo electrónico
+                                <span class="obligatorio"></span>
+                              </label>
+                                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                            </p>
+                        
+                            <p>
+                              <label for="info" class="informacion">¿Cómo te enteraste de mí? 
+                              </label>
+                                <input type="tel" name="introducir_telefono" id="info" placeholder="">
+                            </p>    
+
+                            <p>
+                              <label for="mensaje" class="informacion">¿Qué querías contarme?
+                                <span class="obligatorio"></span>
+                              </label>       
+								
+                               <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja tu comentario"></textarea> 
+                                            </p>                    
+                          
+                            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+           
+                      </form>
+                </div>  
+              </div>
+            </div>
+    </main>
+
+    <footer>
+   
+        <center><img src="IMG/Logo_footer.svg" width="100px" style="margin-top: 10px;" alt""></center>
+        <h5>© Tribuki / Todos los derechos reservados</h5>
+
+        <div id="contacto">
+            <div class="contacto_flex">
+                <div><a href="mailto:luisangelhuerta63@gmail.com"><img src="IMG/ICON/Correo.svg" alt=""></a></div>
+                <div><a href="https://t.me/Langeltribuki"><img src="IMG/ICON/TELEGRAM.svg" alt=""></a></div>
+				</div>
+			<h4>Contacto</h4>
+            </div>
+        
+        <div id="Redes">
+             <div class="redes_sociales_flex">
+                 <div><a href="https://www.youtube.com/channel/UCFbCvt80UbAQ1EoXbIkjevg/videos" alt=""><img src="IMG/ICON/YOUTUBE.svg" alt=""></a></div>
+                 <div><a href="https://www.facebook.com/luisangel.jimenezhuerta"><img src="IMG/ICON/Facebook.svg" alt=""></a></div>
+                 <div><a href="https://www.instagram.com/tribuki.art/"><img src="IMG/ICON/INSTAGRAM.svg" alt=""></a></div>
+             </div>
+             <h4>Redes sociales</h4>
+        </div>
+        
+    </footer>
+</body>
+</html>
